@@ -4,7 +4,8 @@
   "description": "My own shareable config for stylelint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
   "repository": "https://github.com/jamieconnolly/stylelint-config",
   "keywords": [
@@ -16,9 +17,12 @@
   "bugs": "https://github.com/jamieconnolly/stylelint-config/issues",
   "homepage": "https://github.com/jamieconnolly/stylelint-config#readme",
   "devDependencies": {
-    "stylelint": "^7.8"
+    "eslint": "^3.16.0"
   },
   "peerDependencies": {
-    "stylelint": "^7.8"
+    "stylelint": "^7.9.0"
+  },
+  "engines": {
+    "node": ">=4"
   }
 }

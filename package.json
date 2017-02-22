@@ -1,7 +1,7 @@
 {
   "name": "@jamieconnolly/stylelint-config",
   "version": "0.0.0",
-  "description": "My own shareable config for stylelint",
+  "description": "My own opinionated stylelint configuration",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",

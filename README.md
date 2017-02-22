@@ -3,6 +3,8 @@
 [![Build Status][build-status-image]][build-status-url]
 [![MIT License][license-image]][license-url]
 
+> My own opinionated stylelint configuration.
+
 ## Installation
 
 ```

@@ -134,7 +134,7 @@ module.exports = {
     // limit the number of adjacent empty lines
     'max-empty-lines': 1,
     // limit the length of a line
-    'max-line-length': [80, {ignore: 'non-comments'}],
+    'max-line-length': [119, {ignore: 'non-comments'}],
     // limit the depth of nesting
     'max-nesting-depth': 3,
     // require a single space or disallow whitespace after the colon in media features

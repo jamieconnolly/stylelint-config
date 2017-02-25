@@ -5,9 +5,6 @@ module.exports = {
     'stylelint-order',
   ],
   rules: {
-    // specify a blacklist of disallowed at-rules
-    'at-rule-blacklist': ['extend'],
-
     // require or disallow an empty line before at-rules
     'at-rule-empty-line-before': ['always', {
       except: ['blockless-after-same-name-blockless', 'first-nested'],

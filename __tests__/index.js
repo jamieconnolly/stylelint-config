@@ -8,6 +8,7 @@ function isObject(obj) {
 }
 
 it('test basic properties of config', function() {
+  expect(isObject(config.plugins)).toBeTruthy();
   expect(isObject(config.rules)).toBeTruthy();
 });
 

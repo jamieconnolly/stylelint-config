@@ -17,6 +17,9 @@
   "license": "MIT",
   "bugs": "https://github.com/jamieconnolly/stylelint-config/issues",
   "homepage": "https://github.com/jamieconnolly/stylelint-config#readme",
+  "dependencies": {
+    "stylelint-order": "^0.3.0"
+  },
   "devDependencies": {
     "eslint": "^3.16.0",
     "jest": "^19.0.0",

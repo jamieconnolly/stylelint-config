@@ -3,5 +3,8 @@
   "env": {
     "jest": true,
     "node": true
+  },
+  "rules": {
+    "max-lines": "off"
   }
 }

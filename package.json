@@ -18,7 +18,8 @@
   "bugs": "https://github.com/jamieconnolly/stylelint-config/issues",
   "homepage": "https://github.com/jamieconnolly/stylelint-config#readme",
   "dependencies": {
-    "stylelint-order": "^0.3.0"
+    "stylelint-order": "^0.3.0",
+    "stylelint-scss": "^1.4.0"
   },
   "devDependencies": {
     "eslint": "^3.16.0",

@@ -8,7 +8,7 @@ function isObject(obj) {
 }
 
 it('test basic properties of config', function() {
-  expect(isObject(config.extends)).toBeTruthy();
+  expect(config.extends).toBeTruthy();
   expect(isObject(config.plugins)).toBeTruthy();
   expect(isObject(config.rules)).toBeTruthy();
 });
@@ -16,6 +16,7 @@ it('test basic properties of config', function() {
 it('load config in stylelint to validate rule syntax', function() {
   return stylelint.lint({
     code: 'a { font-weight: bold; }\n',
+    codeFilename: 'valid.scss',
     config: config,
   }).then(function(data) {
     expect(data).toBeTruthy();

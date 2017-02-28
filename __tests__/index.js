@@ -1,7 +1,7 @@
 'use strict';
 
-var config = require('../'),
-    stylelint = require('stylelint');
+var config = require('../');
+var stylelint = require('stylelint');
 
 function isObject(obj) {
   return typeof obj === 'object' && obj !== null;

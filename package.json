@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "jest"
+    "test": "jest",
+    "watch": "jest --watch"
   },
   "repository": "https://github.com/jamieconnolly/stylelint-config",
   "keywords": [
@@ -18,17 +19,17 @@
   "bugs": "https://github.com/jamieconnolly/stylelint-config/issues",
   "homepage": "https://github.com/jamieconnolly/stylelint-config#readme",
   "dependencies": {
-    "stylelint-order": "^0.3.0",
-    "stylelint-scss": "^1.4.0"
+    "stylelint-order": "^0.3",
+    "stylelint-scss": "^1.4"
   },
   "devDependencies": {
-    "eslint": "^3.16.0",
-    "eslint-plugin-jest": "^19.0.0",
-    "jest": "^19.0.0",
-    "stylelint": "^7.9.0"
+    "eslint": "^3.16",
+    "eslint-plugin-jest": "^19.0",
+    "jest": "^19.0",
+    "stylelint": "^7.9"
   },
   "peerDependencies": {
-    "stylelint": "^7.9.0"
+    "stylelint": ">=7.9"
   },
   "engines": {
     "node": ">=4"

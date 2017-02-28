@@ -1,9 +1,15 @@
 {
-  "extends": "eslint:recommended",
   "env": {
     "jest": true,
     "node": true
   },
+  "extends": [
+    "eslint:recommended",
+    "plugin:jest/recommended"
+  ],
+  "plugins": [
+    "jest"
+  ],
   "rules": {
     "max-lines": "off"
   }

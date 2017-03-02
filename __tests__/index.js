@@ -1,22 +1,13 @@
 'use strict';
 
-var config = require('../');
+var path = require('path');
 var stylelint = require('stylelint');
-
-function isObject(obj) {
-  return typeof obj === 'object' && obj !== null;
-}
-
-it('test basic properties of config', function() {
-  expect(isObject(config.plugins)).toBeTruthy();
-  expect(isObject(config.rules)).toBeTruthy();
-});
 
 it('load config in stylelint to validate rule syntax', function() {
   return stylelint.lint({
     code: 'a { font-weight: bold; }\n',
     codeFilename: 'valid.css',
-    config: config,
+    configFile: path.join(__dirname, '../index.js'),
   }).then(function(data) {
     expect(data).toBeTruthy();
     expect(data.errored).toBeFalsy();

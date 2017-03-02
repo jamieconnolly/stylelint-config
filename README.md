@@ -2,6 +2,7 @@
 
 [![Build Status][build-status-image]][build-status-url]
 [![MIT License][license-image]][license-url]
+[![Version][version-image]][version-url]
 
 > My own opinionated stylelint configuration.
 
@@ -30,3 +31,6 @@ To get started, add this to your `.stylelintrc.*` file:
 
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg
 [license-url]: https://github.com/jamieconnolly/stylelint-config/blob/master/LICENSE
+
+[version-image]: https://img.shields.io/npm/v/@jamieconnolly/stylelint-config.svg
+[version-url]: https://www.npmjs.com/package/@jamieconnolly/stylelint-config

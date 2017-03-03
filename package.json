@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "pretest": "npm run lint",
+    "pretest": "yarn run lint",
     "test": "jest",
     "watch": "jest --watch"
   },

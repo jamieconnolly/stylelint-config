@@ -22,6 +22,18 @@ To get started, add this to your `.stylelintrc.*` file:
 }
 ```
 
+## Presets
+
+In addition to the default preset, there are also specific presets. All presets extend the default one.
+
+### SCSS
+
+```json
+{
+  "extends": "@jamieconnolly/stylelint-config/scss"
+}
+```
+
 ## License
 
 [MIT License][license-url]

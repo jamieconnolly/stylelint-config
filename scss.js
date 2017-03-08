@@ -61,9 +61,6 @@ module.exports = {
     // require or disallow properties with - in their names to be in a form of a nested group
     'scss/declaration-nested-properties': 'never',
 
-    // require a newline after the colon in $-variable declarations
-    'scss/dollar-variable-colon-newline-after': 'always-multi-line',
-
     // require a single space or disallow whitespace after the colon in $-variable declarations
     'scss/dollar-variable-colon-space-after': 'always-single-line',
 

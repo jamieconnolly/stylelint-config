@@ -256,7 +256,7 @@ module.exports = {
     'number-no-trailing-zeros': true,
 
     // specify the order of content within declaration blocks
-    'order/declaration-block-order': [
+    'order/order': [
       'custom-properties',
       'dollar-variables',
       'at-variables',
@@ -267,7 +267,7 @@ module.exports = {
     ],
 
     // specify the almost strict order of properties within declaration blocks
-    'order/declaration-block-properties-specified-order': [
+    'order/properties-order': [
       [
         'position',
         'top',

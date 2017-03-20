@@ -23,7 +23,7 @@
     "stylelint-scss": "^1.4"
   },
   "devDependencies": {
-    "eslint": "^3.16",
+    "eslint": "^3.18",
     "eslint-plugin-jest": "^19.0",
     "jest": "^19.0",
     "stylelint": "^7.9"

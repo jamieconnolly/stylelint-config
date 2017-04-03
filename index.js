@@ -26,6 +26,9 @@ module.exports = {
     // require a newline after the semicolon of at-rules
     'at-rule-semicolon-newline-after': 'always',
 
+    // require a single space or disallow whitespace before the semicolons of at rules
+    'at-rule-semicolon-space-before': 'never',
+
     // require or disallow an empty line before the closing brace of blocks
     'block-closing-brace-empty-line-before': 'never',
 

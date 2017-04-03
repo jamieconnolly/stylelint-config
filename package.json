@@ -23,13 +23,13 @@
     "stylelint-scss": "^1.4"
   },
   "devDependencies": {
-    "eslint": "^3.18",
+    "eslint": "^3.19",
     "eslint-plugin-jest": "^19.0",
     "jest": "^19.0",
-    "stylelint": "^7.9"
+    "stylelint": "^7.10"
   },
   "peerDependencies": {
-    "stylelint": ">=7.9"
+    "stylelint": ">=7.10"
   },
   "engines": {
     "node": ">=4"

@@ -1,9 +1,8 @@
 # stylelint-config
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jamieconnolly/stylelint-config.svg)](https://greenkeeper.io/)
-
-[![Build Status][build-status-image]][build-status-url]
-[![MIT License][license-image]][license-url]
+[![Build status][build-status-image]][build-status-url]
+[![Dependency status][dependency-status-image]][dependency-status-url]
+[![License][license-image]][license-url]
 [![Version][version-image]][version-url]
 
 > My own opinionated stylelint configuration.
@@ -42,6 +41,9 @@ In addition to the default preset, there are also specific presets. All presets 
 
 [build-status-image]: https://api.travis-ci.org/jamieconnolly/stylelint-config.svg?branch=master
 [build-status-url]: https://travis-ci.org/jamieconnolly/stylelint-config
+
+[dependency-status-image]: https://david-dm.org/jamieconnolly/stylelint-config/master.svg
+[dependency-status-url]: https://david-dm.org/jamieconnolly/stylelint-config
 
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg
 [license-url]: https://github.com/jamieconnolly/stylelint-config/blob/master/LICENSE

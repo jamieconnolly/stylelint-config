@@ -1,5 +1,7 @@
 # stylelint-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jamieconnolly/stylelint-config.svg)](https://greenkeeper.io/)
+
 [![Build Status][build-status-image]][build-status-url]
 [![MIT License][license-image]][license-url]
 [![Version][version-image]][version-url]

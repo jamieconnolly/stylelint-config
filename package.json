@@ -19,17 +19,17 @@
   "bugs": "https://github.com/jamieconnolly/stylelint-config/issues",
   "homepage": "https://github.com/jamieconnolly/stylelint-config#readme",
   "dependencies": {
-    "stylelint-order": "^0.5.0",
-    "stylelint-scss": "^1.4"
+    "stylelint-order": "0.5.0",
+    "stylelint-scss": "1.4.4"
   },
   "devDependencies": {
-    "eslint": "^3.19",
-    "eslint-plugin-jest": "^20.0",
-    "jest": "^20.0",
-    "stylelint": "^7.10"
+    "eslint": "3.19.0",
+    "eslint-plugin-jest": "20.0.3",
+    "jest": "20.0.4",
+    "stylelint": "7.11.0"
   },
   "peerDependencies": {
-    "stylelint": ">=7.10"
+    "stylelint": ">=7.11.0"
   },
   "engines": {
     "node": ">=4"

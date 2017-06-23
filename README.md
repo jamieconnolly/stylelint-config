@@ -2,7 +2,7 @@
 
 [![Build status][build-status-image]][build-status-url]
 [![Dependency status][dependency-status-image]][dependency-status-url]
-[![License][license-image]][license-url]
+[![MIT License][license-image]][license-url]
 [![Version][version-image]][version-url]
 
 > My own opinionated stylelint configuration.

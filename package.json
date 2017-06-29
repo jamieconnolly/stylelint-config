@@ -26,10 +26,10 @@
     "eslint": "^4.1.0",
     "eslint-plugin-jest": "^20.0.0",
     "jest": "^20.0.0",
-    "stylelint": "^7.11.0"
+    "stylelint": "^7.12.0"
   },
   "peerDependencies": {
-    "stylelint": ">=7.11"
+    "stylelint": ">=7.12"
   },
   "engines": {
     "node": ">=4"

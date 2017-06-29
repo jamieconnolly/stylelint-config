@@ -5,7 +5,7 @@ var stylelint = require('stylelint');
 
 it('load config in stylelint to validate rule syntax', function() {
   return stylelint.lint({
-    code: 'a { font-weight: bold; }\n',
+    code: 'a { font-weight: 500; }\n',
     codeFilename: 'valid.scss',
     configFile: path.join(__dirname, '../scss.js'),
   }).then(function(data) {

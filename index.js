@@ -228,6 +228,12 @@ module.exports = {
     // require or disallow quotes for urls
     'function-url-quotes': 'always',
 
+    // specify a blacklist of disallowed url schemes
+    'function-url-scheme-blacklist': null,
+
+    // specify a whitelist of allowed url schemes
+    'function-url-scheme-whitelist': ['http', 'https'],
+
     // specify a whitelist of allowed functions
     'function-whitelist': null,
 
@@ -590,8 +596,14 @@ module.exports = {
     // require a single space or disallow whitespace before the commas of selector lists
     'selector-list-comma-space-before': 'never',
 
+    // limit the number of attribute selectors in a selector
+    'selector-max-attribute': null,
+
     // limit the number of classes in a selector
     'selector-max-class': null,
+
+    // limit the number of combinators in a selector
+    'selector-max-combinators': null,
 
     // limit the number of compound selectors in a selector
     'selector-max-compound-selectors': 3,
@@ -599,8 +611,17 @@ module.exports = {
     // limit the number of adjacent empty lines within selectors
     'selector-max-empty-lines': 0,
 
+    // limit the number of id selectors in a selector
+    'selector-max-id': 0,
+
     // limit the specificity of selectors
     'selector-max-specificity': '0,4,0',
+
+    // limit the number of type in a selector
+    'selector-max-type': null,
+
+    // limit the number of universal selectors in a selector
+    'selector-max-universal': null,
 
     // specify a pattern for the selectors of rules nested within rules
     'selector-nested-pattern': null,

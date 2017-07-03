@@ -78,7 +78,7 @@ module.exports = {
     'color-named': 'never',
 
     // disallow hex colors
-    'color-no-hex': true,
+    'color-no-hex': null,
 
     // disallow invalid hex colors
     'color-no-invalid-hex': true,
@@ -541,8 +541,6 @@ module.exports = {
         // Text
         {
           properties: [
-            'color',
-
             'font',
             'font-family',
             'font-feature-settings',
@@ -557,6 +555,8 @@ module.exports = {
 
             'letter-spacing',
             'line-height',
+
+            'color',
 
             'text-align',
             'text-align-last',

@@ -20,7 +20,7 @@
   "homepage": "https://github.com/jamieconnolly/stylelint-config#readme",
   "dependencies": {
     "stylelint-order": "0.6.0",
-    "stylelint-scss": "1.4.4"
+    "stylelint-scss": "1.5.1"
   },
   "devDependencies": {
     "eslint": "^4.1.0",

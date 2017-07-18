@@ -5,6 +5,9 @@ module.exports = {
     'stylelint-scss',
   ],
   rules: {
+    // disallow unknown at-rules
+    'at-rule-no-unknown': null,
+
     // require or disallow a newline after the closing brace of @else statements
     'scss/at-else-closing-brace-newline-after': 'always-last-in-chain',
 
@@ -40,6 +43,9 @@ module.exports = {
 
     // specify a pattern for Sass/SCSS-like mixin names
     'scss/at-mixin-pattern': null,
+
+    // disallow unknown at-rules
+    'scss/at-rule-no-unknown': true,
 
     // require or disallow properties with - in their names to be in a form of a nested group
     'scss/declaration-nested-properties': 'never',

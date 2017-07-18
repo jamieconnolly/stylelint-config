@@ -16,16 +16,6 @@ module.exports = {
       ignoreAtRules: ['else'],
     }],
 
-    // disallow unknown at-rules
-    'at-rule-no-unknown': [true, {
-      ignoreAtRules: [
-        'extend', 'at-root', 'debug',
-        'warn', 'error', 'if', 'else',
-        'for', 'each', 'while', 'mixin',
-        'include', 'content', 'return', 'function',
-      ],
-    }],
-
     // require a newline or disallow whitespace after the closing brace of blocks
     'block-closing-brace-newline-after': ['always', {
       ignoreAtRules: ['else', 'if'],

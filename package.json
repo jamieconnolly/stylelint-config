@@ -6,8 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "jest",
-    "watch": "jest --watch"
+    "test": "jest"
   },
   "repository": "https://github.com/jamieconnolly/stylelint-config",
   "keywords": [

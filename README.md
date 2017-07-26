@@ -15,7 +15,7 @@ $ npm install --save-dev @jamieconnolly/stylelint-config
 
 ## Usage
 
-To get started, add this to your `.stylelintrc.*` file:
+To get started, add this to your `.stylelintrc.json` file:
 
 ```json
 {

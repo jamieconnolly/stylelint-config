@@ -6,6 +6,7 @@ module.exports = {
     './rules/language-features',
     './rules/order',
     './rules/possible-errors',
+    './rules/scss',
     './rules/stylistic-issues',
   ].map(require.resolve),
 };

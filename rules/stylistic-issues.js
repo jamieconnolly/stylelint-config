@@ -6,6 +6,7 @@ module.exports = {
     'at-rule-empty-line-before': ['always', {
       except: ['blockless-after-same-name-blockless', 'first-nested'],
       ignore: ['after-comment'],
+      ignoreAtRules: ['else'],
     }],
 
     // specify lowercase or uppercase for at-rules names
@@ -27,7 +28,9 @@ module.exports = {
     'block-closing-brace-empty-line-before': 'never',
 
     // require a newline or disallow whitespace after the closing brace of blocks
-    'block-closing-brace-newline-after': 'always',
+    'block-closing-brace-newline-after': ['always', {
+      ignoreAtRules: ['else', 'if'],
+    }],
 
     // require a newline or disallow whitespace before the closing brace of blocks
     'block-closing-brace-newline-before': 'always-multi-line',

@@ -3,7 +3,7 @@
 module.exports = {
   rules: {
     // specify a blacklist of disallowed at-rules
-    'at-rule-blacklist': null,
+    'at-rule-blacklist': ['debug', 'extend'],
 
     // disallow vendor prefixes for at-rules
     'at-rule-no-vendor-prefix': true,

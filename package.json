@@ -30,7 +30,7 @@
     "stylelint": "^8.0.0"
   },
   "peerDependencies": {
-    "stylelint": ">=8.0"
+    "stylelint": "^8.0.0"
   },
   "engines": {
     "node": ">=4"

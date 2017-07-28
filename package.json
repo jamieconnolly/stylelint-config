@@ -25,6 +25,7 @@
   "devDependencies": {
     "eslint": "^4.1.0",
     "eslint-plugin-jest": "^20.0.0",
+    "eslint-plugin-node": "^5.1.0",
     "is-plain-obj": "^1.1.0",
     "jest": "^20.0.0",
     "stylelint": "^8.0.0"

@@ -16,6 +16,9 @@ module.exports = {
       'less-mixins',
     ],
 
+    // specify the alphabetical order of properties within declaration blocks.
+    'order/properties-alphabetical-order': null,
+
     // specify the almost strict order of properties within declaration blocks
     'order/properties-order': [
       [
@@ -23,6 +26,7 @@ module.exports = {
         {
           properties: [
             'content',
+            'quotes',
           ],
         },
         // Position
@@ -42,6 +46,39 @@ module.exports = {
             'display',
             'opacity',
             'visibility',
+          ],
+        },
+        // Transform
+        {
+          properties: [
+            'backface-visibility',
+
+            'perspective',
+            'perspective-origin',
+
+            'transform',
+            'transform-origin',
+            'transform-style',
+
+            'transition',
+            'transition-delay',
+            'transition-duration',
+            'transition-property',
+            'transition-timing-function',
+          ],
+        },
+        // Animation
+        {
+          properties: [
+            'animation',
+            'animation-delay',
+            'animation-direction',
+            'animation-duration',
+            'animation-fill-mode',
+            'animation-iteration-count',
+            'animation-name',
+            'animation-play-state',
+            'animation-timing-function',
           ],
         },
         // Layout
@@ -254,35 +291,6 @@ module.exports = {
             'word-break',
             'word-spacing',
             'word-wrap',
-          ],
-        },
-        // Transform
-        {
-          properties: [
-            'transition',
-            'transition-delay',
-            'transition-duration',
-            'transition-property',
-            'transition-timing-function',
-
-            'transform',
-            'transform-origin',
-            'transform-style',
-
-            'perspective',
-            'perspective-origin',
-
-            'backface-visibility',
-
-            'animation',
-            'animation-delay',
-            'animation-direction',
-            'animation-duration',
-            'animation-fill-mode',
-            'animation-iteration-count',
-            'animation-name',
-            'animation-play-state',
-            'animation-timing-function',
           ],
         },
       ], {

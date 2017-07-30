@@ -144,7 +144,7 @@ module.exports = {
     'time-min-milliseconds': 100,
 
     // specify a blacklist of disallowed units
-    'unit-blacklist': ['px'],
+    'unit-blacklist': null,
 
     // specify a whitelist of allowed units
     'unit-whitelist': null,

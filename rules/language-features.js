@@ -120,7 +120,7 @@ module.exports = {
     'selector-max-specificity': '0,4,0',
 
     // limit the number of type in a selector
-    'selector-max-type': null,
+    'selector-max-type': 1,
 
     // limit the number of universal selectors in a selector
     'selector-max-universal': null,

@@ -15,12 +15,12 @@ $ npm install --save-dev @jamieconnolly/stylelint-config
 
 ## Usage
 
-To get started, add this to your `.stylelintrc.json` file:
+To get started, add this to your `.stylelintrc.js` file:
 
-```json
-{
-  "extends": "@jamieconnolly/stylelint-config"
-}
+```js
+module.exports = {
+  extends: '@jamieconnolly/stylelint-config'
+};
 ```
 
 ## License

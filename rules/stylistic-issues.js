@@ -155,7 +155,7 @@ module.exports = {
     'max-empty-lines': 1,
 
     // limit the length of a line
-    'max-line-length': [119, {ignore: 'non-comments'}],
+    'max-line-length': 119,
 
     // require a single space or disallow whitespace after the colon in media features
     'media-feature-colon-space-after': 'always',

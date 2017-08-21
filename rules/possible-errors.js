@@ -38,7 +38,9 @@ module.exports = {
     'keyframe-declaration-no-important': true,
 
     // limit the depth of nesting
-    'max-nesting-depth': 3,
+    'max-nesting-depth': [3, {
+      ignore: ['blockless-at-rules'],
+    }],
 
     // disallow unknown media feature names
     'media-feature-name-no-unknown': true,

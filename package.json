@@ -18,7 +18,7 @@
   "bugs": "https://github.com/jamieconnolly/stylelint-config/issues",
   "homepage": "https://github.com/jamieconnolly/stylelint-config#readme",
   "dependencies": {
-    "stylelint-no-unsupported-browser-features": "1.0.1",
+    "stylelint-no-unsupported-browser-features": "3.0.2",
     "stylelint-order": "0.8.0",
     "stylelint-scss": "2.2.0"
   },

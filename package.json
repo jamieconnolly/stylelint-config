@@ -20,7 +20,7 @@
   "dependencies": {
     "stylelint-no-unsupported-browser-features": "1.0.1",
     "stylelint-order": "0.8.0",
-    "stylelint-scss": "2.2.0"
+    "stylelint-scss": "3.9.0"
   },
   "devDependencies": {
     "eslint": "^4.1.0",
